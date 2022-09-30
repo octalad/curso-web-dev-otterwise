@@ -1,0 +1,25 @@
+COMANDOS GIT HUB
+
+git status
+"mostra o status do git atual"
+
+git log
+"mostra as informaçoes do git atual"
+
+git add .
+"adiciona todas as alterações no armazem local"
+
+git commit -m "mensagem"
+"gera um novo commit(checkpoint) no git"
+
+git push
+"envia as alterações para o armazem externo(site)"
+
+git branch -M "nome da branch"
+"gera uma nova branch(ramificação) no codigo"
+
+git checkout 
+"muda de uma branch para outra ou para o codigo main"
+
+git pull
+"atualiza a branch se a main estiver com commits a frente"
