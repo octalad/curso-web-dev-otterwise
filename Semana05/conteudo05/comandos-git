@@ -13,7 +13,7 @@ git commit -m "mensagem"
 "gera um novo commit(checkpoint) no git"
 
 git push
-"envia as alterações para o armazem externo(site)"
+"envia as alterações para o armazem remoto(site)"
 
 git branch -M "nome da branch"
 "gera uma nova branch(ramificação) no codigo"
@@ -22,4 +22,7 @@ git checkout
 "muda de uma branch para outra ou para o codigo main"
 
 git pull
-"atualiza a branch se a main estiver com commits a frente"
+"puxa o remoto para o local caso esteja desatualizado"
+
+git fetch 
+"analisa o respository remoto e traz informaçoes para o local"
