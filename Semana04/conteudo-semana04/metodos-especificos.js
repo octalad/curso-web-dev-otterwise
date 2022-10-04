@@ -132,3 +132,8 @@
 //   }
 // });
 // console.log(response);
+
+let teste = "59";
+let lara = parseInt(teste);
+
+console.log(typeof lara);
