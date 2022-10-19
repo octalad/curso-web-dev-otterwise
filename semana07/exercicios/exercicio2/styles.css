@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.divs {
+  height: 200px;
+}
+
+.paragrafo {
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .divs {
+    height: 200px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .paragrafo {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  .divs {
+    height: 200px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .paragrafo {
+    font-size: 18px;
+  }
+}

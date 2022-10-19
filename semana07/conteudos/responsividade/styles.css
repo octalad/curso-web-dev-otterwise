@@ -1,0 +1,24 @@
+h1 {
+  color: red;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    color: blue;
+    font-size: 50px;
+  }
+}
+
+/* LISTA DE BRAKPOINTS 
+
+Mobie - Padrão
+
+Acima de 576px(Landscape)
+
+Acima de 768px(Tablets)
+
+Acima de 992px(Dispositivos grandes)
+
+Acima de 1200px(Dispositivos extra grandes)
+
+*/
