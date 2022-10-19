@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  padding: 0px;
+  margin: 0px;
+}
+
+.button {
+  border: none;
+  padding: 10px 5px;
+  background-color: aquamarine;
+}
+
+.button:hover {
+  background-color: aqua;
+}
+
+.list {
+  background-color: burlywood;
+  padding: 10px;
+  margin: 10px;
+}
+
+.list:empty {
+  display: none;
+}
+
+/* .list-items:first-child {
+  background-color: blueviolet;
+} */
+
+/* .list-items:last-child {
+  background-color: blue;
+} */
+
+.list-items:nth-child(odd) {
+  background-color: blueviolet;
+  font-size: 25px;
+}
