@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de Cadastro</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="description">
+        <h1 class="description-title">Formulario de Cadastro</h1>
+        <p class="description-desc">
+          Por favor, insira suas informações nos seguintes campos para se
+          cadastrar em nosso site:
+        </p>
+      </div>
+      <div class="formulario">
+        <form class="formulario-infos" action="">
+          <label for="username">Nome de Usuario:</label>
+          <input type="text" name="username" placeholder="Nome de Usuário" />
+          <label for="email">Email:</label>
+          <input type="email" name="email" placeholder="Seu email" />
+          <label for="birthdate">Data de Nascimento:</label>
+          <input type="date" name="birthdate" placeholder="Dia/Mes/Ano" />
+          <div class="formulario-infos-radio">
+            <p>Escolha sua linguadem de programação favorita:</p>
+            <label class="formulario-infos-radio-label" for="js"
+              >JavaScript
+              <input
+                type="radio"
+                id="js"
+                name="fav-lang"
+                value="JavaScript"
+              /> </label
+            ><br />
+            <label class="formulario-infos-radio-label" for="basic"
+              >Basic
+              <input type="radio" id="basic" name="fav-lang" value="Basic" />
+            </label>
+          </div>
+
+          <button class="button">Enviar Cadastro</button>
+        </form>
+      </div>
+    </header>
+  </body>
+</html>
