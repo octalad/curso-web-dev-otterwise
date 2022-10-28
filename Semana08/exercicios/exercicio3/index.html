@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <h1 class="header-title">Calculadora</h1>
+        <p class="header-description">
+          Preencha os campos e descubra o resultado da equação selecionada
+        </p>
+      </header>
+      <section class="calculo">
+        <form action="">
+          <div class="escolha">
+            <label for="">
+              Digite o primeiro numero
+              <input
+                type="number"
+                name="firnum"
+                placeholder="Primeiro numero"
+              />
+            </label>
+
+            <label for="">
+              Digite o segundo numero
+              <input type="number" name="secnum" placeholder="Segundo numero" />
+            </label>
+
+            <p>Escolha o tipo de equação:</p>
+
+            <label for="">
+              soma
+              <input
+                type="radio"
+                id="soma"
+                name="eqType"
+                value="soma"
+              /> </label
+            ><br />
+
+            <label for="">
+              Subtração
+              <input
+                type="radio"
+                id="subt"
+                name="eqType"
+                value="subt"
+              /> </label
+            ><br />
+
+            <label for="">
+              Multiplicação
+              <input
+                type="radio"
+                id="mult"
+                name="eqType"
+                value="mult"
+              /> </label
+            ><br />
+
+            <label for="">
+              Divisão
+              <input type="radio" id="div" name="eqType" value="div" />
+            </label>
+
+            <input type="text" name="userId" value="1" hidden />
+            <br />
+            <button class="button">Calcular</button>
+            <p class="result">Resultado:</p>
+            <button type="reset" class="clean-button">Limpar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <script src="./assets/main.js"></script>
+  </body>
+</html>
