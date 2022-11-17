@@ -60,29 +60,74 @@
 // let result = cpf.split();
 // console.log(result);
 
-let values = ["  h3ll0 w0rld", "  w3b d3v3l0p3r  ", "0tterw1s3", "j4v4scr1pt "];
+// let values = ["  h3ll0 w0rld", "  w3b d3v3l0p3r  ", "0tterw1s3", "j4v4scr1pt "];
 
-const organiza = () => {
-  let newWords = [];
-  for (let i = 0; i < values.length; i++) {
-    newWords[i] = values[i].trim();
+// const organiza = () => {
+//   let newWords = [];
+//   for (let i = 0; i < values.length; i++) {
+//     newWords[i] = values[i].trim();
+//   }
+//   values = newWords;
+//   for (let i = 0; i < values.length; i++) {
+//     newWords[i] = values[i].replaceAll("3", "e");
+//   }
+//   values = newWords;
+//   for (let i = 0; i < values.length; i++) {
+//     newWords[i] = values[i].replaceAll("4", "a");
+//   }
+//   values = newWords;
+//   for (let i = 0; i < values.length; i++) {
+//     newWords[i] = values[i].replaceAll("1", "i");
+//   }
+//   values = newWords;
+//   for (let i = 0; i < values.length; i++) {
+//     newWords[i] = values[i].replaceAll("0", "o");
+//   }
+//   console.log(newWords);
+// };
+// organiza(values);
+
+
+// let letterUp = string.toUpperCase()
+// let slice=[];
+// let aux;
+// let newStr = [];
+// for(let i = 0 ; i < string.length ; i ++){
+  //   if(letterUp[i] === string[i]){
+    //     newStr[i] = string.substr(i, i+1) + " "
+    //     slice[i] = string.substr(0, i
+    //       )
+  //   }
+  // }
+  // string = newStr.filter(newStr => newStr.length>1)
+  // newStr = slice.filter(slice => slice.length>1)
+  
+  
+  
+//   const soluction = (string) => {
+//   string = string.split("").map(el => {
+  
+//       if(el == el.toUpperCase()){
+//        el = " " + el
+      
+//     }
+//     return el
+
+//     })
+//     console.log(string.join(""));
+//   }
+
+// soluction("camelCasingTest")
+
+const putaqpariu = (value) => {
+  value = value.toString()
+  let res;
+  if(value.length <=10){
+    for(let i = 0 ; i < value.lenght ; i ++){
+      res =  Math.pow(parseFloat(value[i]), value.length)
+    }
+    console.log(res);
   }
-  values = newWords;
-  for (let i = 0; i < values.length; i++) {
-    newWords[i] = values[i].replaceAll("3", "e");
-  }
-  values = newWords;
-  for (let i = 0; i < values.length; i++) {
-    newWords[i] = values[i].replaceAll("4", "a");
-  }
-  values = newWords;
-  for (let i = 0; i < values.length; i++) {
-    newWords[i] = values[i].replaceAll("1", "i");
-  }
-  values = newWords;
-  for (let i = 0; i < values.length; i++) {
-    newWords[i] = values[i].replaceAll("0", "o");
-  }
-  console.log(newWords);
-};
-organiza(values);
+} 
+
+putaqpariu(153)

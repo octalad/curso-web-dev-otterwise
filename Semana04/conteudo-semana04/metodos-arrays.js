@@ -44,17 +44,18 @@
 // console.log(fruits);
 //*adiciona um elemento na primeira posição do array*
 
-//slice
+// slice
 
-// let fruits = ["Banana", "Pineapple", "Lemon", "Orange"];
-// let result = fruits.slice(1);
-// console.log(result);
+ let fruits = ["Banana", "Pineapple", "Lemon", "Orange"];
+ let result = fruits.slice(1);
+ console.log(result);
+ console.log(fruits);
 
 //splice
 
-let fruits = ["Banana", "Pineapple", "Lemon", "Orange"];
-fruits.splice(2, 0, "lemon", "kiwi");
-console.log(fruits);
+// let fruits = ["Banana", "Pineapple", "Lemon", "Orange"];
+// fruits.splice(2, 0, "lemon", "kiwi");
+// console.log(fruits);
 
 //reverse
 
